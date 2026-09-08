@@ -5,7 +5,7 @@
             "name": "Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/${fileBasenameNoExtension}",
+            "program": "${workspaceFolder}/wedrive",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -39,10 +39,10 @@
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
-            "program": "${workspaceFolder}/${fileBasenameNoExtension}",
+            "program": "${workspaceFolder}/wedrive",
             "MIMode": "gdb",
             "windows": {
-                "program": "${workspaceFolder}/${fileBasenameNoExtension}.exe",
+                "program": "${workspaceFolder}/wedrive.exe",
                 "miDebuggerPath": "C:/raylib/w64devkit/bin/gdb.exe"
             },
             "osx": {
@@ -57,7 +57,7 @@
             "name": "C/C++: gcc.exe build and debug active file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "program": "${fileDirname}\\wedrive.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "C:/raylib/w64devkit/bin",
